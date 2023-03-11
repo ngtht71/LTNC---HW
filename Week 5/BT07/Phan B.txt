@@ -1,0 +1,9 @@
+Phan B:
+1.Output:
+*p3 = B, p3 = 0x5678
+*p3 = A, p3 = 0x1234
+*p1 = B, p1 = 0x1238 (0x1234 + 4)
+
+2. *p = 5 --> i = 5
+
+3. Lỗi ép kiểu từ char -> double
